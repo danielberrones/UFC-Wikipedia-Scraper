@@ -1,2 +1,5 @@
 # UFC_WikipediaScraper
-Scrape fight data from Wikipedia for any UFC Fighter
+Scrapes fight data from Wikipedia for any UFC Fighter and saves into text file on local machine.
+
+
+![](https://media.giphy.com/media/VdF8FoM4ZbNcuc04kH/giphy.gif)
