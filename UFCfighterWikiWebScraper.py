@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 
 # example url = 'https://en.wikipedia.org/wiki/Jorge_Masvidal'
 
+
 class Fighter:
     def __init__(self, url):
         #initializes url
@@ -21,7 +22,7 @@ class Fighter:
         self.truncatedTitle = self.url.split('/')[4]
 
         #saves text in file with fighter name
-        with open("/Users/danielberrones/pythonDB/newFolder/{}.txt".format(self.truncatedTitle), "w") as f:
+        with open("ENTER\YOUR\FILE\PATH\HERE\{}.txt".format(self.truncatedTitle), "w") as f:
             for self.parsed in self.parsedText[1].text:
                 f.write(self.parsed)
 
@@ -31,6 +32,7 @@ class Fighter:
 def main():
     gamebred = Fighter(input("Type URL: "))
     print(gamebred.searchWeb())
+
 
 if __name__ == "__main__":
     main()
