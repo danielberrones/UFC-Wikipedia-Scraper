@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 
 class Fighter:
     def __init__(self, url):
-        #initializes url
         self.url = url
 
     def searchWeb(self):
