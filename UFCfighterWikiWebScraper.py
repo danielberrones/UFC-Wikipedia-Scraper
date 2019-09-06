@@ -1,3 +1,7 @@
+## A tool to extract data from Wikipedia for UFC Fighters
+## Created by Daniel Berrones [Daniel.A.Berrones@gmail.com]
+
+
 import requests
 from bs4 import BeautifulSoup
 
