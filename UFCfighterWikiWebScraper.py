@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-# example url = 'https://en.wikipedia.org/wiki/Jorge_Masvidal'
+#example url format = 'https://en.wikipedia.org/wiki/Jorge_Masvidal'
 
 class Fighter:
     def __init__(self, url):
