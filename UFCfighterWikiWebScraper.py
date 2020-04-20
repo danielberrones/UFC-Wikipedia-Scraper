@@ -29,7 +29,6 @@ class Fighter:
             for self.parsed in self.parsedText[1].text:
                 f.write(self.parsed)
 
-        #success statement
         return "It was a success!"
 
 def main():
