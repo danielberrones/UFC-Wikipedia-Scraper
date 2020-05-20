@@ -25,7 +25,7 @@ class Fighter:
         self.truncatedTitle = self.url.split('/')[4]
 
         #saves text in file with fighter name
-        with open("ENTER\YOUR\FILE\PATH\HERE\{}.txt".format(self.truncatedTitle), "w") as f:
+        with open("/home/morretti/dbGit/UFC-Wikipedia-Scraper/{}.txt".format(self.truncatedTitle), "w") as f:
             for self.parsed in self.parsedText[1].text:
                 f.write(self.parsed)
 
